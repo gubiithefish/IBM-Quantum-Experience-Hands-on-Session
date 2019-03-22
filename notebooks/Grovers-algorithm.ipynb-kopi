@@ -35,70 +35,39 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "Let us look at a problem in classical computing. Here we have a list of numbers with length N. "
+    "![My Title](images/grover/NormalDB.jpg)"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "![My Title](../images/grover/NormalDB.jpg)"
+    "![My Title](images/grover/UnsortedArray.jpg)"
    ]
   },
   {
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "In this case we are trying to find the figure 8. Given a function F we want to give a number \"t\" as input so as f(t) = 8. "
+    "![My Title](images/grover/SortedArray.jpg)"
    ]
   },
   {
-   "cell_type": "markdown",
+   "cell_type": "code",
+   "execution_count": 63,
    "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "/bin/sh: -c: line 0: syntax error near unexpected token `('\r\n",
+      "/bin/sh: -c: line 0: `[My Title](images/grover/SortedArray.jpg)'\r\n"
+     ]
+    }
+   ],
    "source": [
-    "![My Title](../images/grover/SortedArray.jpg)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "In classical computing there are several ways of doing this. One way is linar search which takes $O(N)$ time."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "![My Title](../images/grover/LinearSearch.jpg)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "Another more optimised way is the binary search, which in turn takes $O(log_n)$ time."
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "![My Title](../images/grover/BinarySearch.jpg)"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "But what if we have an unsorted array, and we want to do it even faster?"
-   ]
-  },
-  {
-   "cell_type": "markdown",
-   "metadata": {},
-   "source": [
-    "![My Title](../images/grover/UnsortedArray.jpg)"
+    "![My Title](images/grover/SortedArray.jpg)"
    ]
   },
   {
